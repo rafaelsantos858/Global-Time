@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'google';
+    src: url('russoone-regular-webfont.woff2') format('woff2'),
+        url('russoone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+html {
+    background-color: rgb(21, 15, 51);
+}
+
+
+#div1 {
+    display: flex;
+}
+
+#div2 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#dia{
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    margin: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'google';
+    background-image: url(https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80);
+}
+
+#noite{
+    color: white;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    margin: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'google';
+    background-image: url(https://images.unsplash.com/photo-1536746803623-cef87080bfc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=332&q=80);
+    
+}
+
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1465788786008-f75a725b34e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+    position: relative;
+    font-family: 'google';
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: blanchedalmond;
+    bottom: 0;
+    left: 0;
+}
+
+nav a:hover::after {
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+#logo {
+    width: 47px;
+    float: right;
+    margin-right: 5px;
+}
+
+#barra {
+    padding: 5px;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 37.5%;
+    margin-top: 4%;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: darkgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 50px;
+}
+
+/* footer{
+    padding: 1.2%;
+    background-color: white;
+} */
+
+.continente{
+    padding-top: 5%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#continentesel{
+    -webkit-appearance: none;  
+    -moz-appearance: none; 
+    appearance: none; 
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  
+    background-position: 218px center;  
+    width: 250px; 
+    height:25px; 
+    border:1px solid #ddd;
+ }
+
+ #cidade{
+    -webkit-appearance: none;  
+    -moz-appearance: none; 
+    appearance: none; 
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  
+    background-position: 218px center;  
+    width: 250px; 
+    height:25px; 
+    border:1px solid #ddd;
+ }
+
+ label{
+     font-family: 'google';
+ }
+
+ select{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+ }

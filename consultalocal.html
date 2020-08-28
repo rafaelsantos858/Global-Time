@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta localidade</title>
+    <link rel="stylesheet" href="stylelocalidade.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header>
+
+        <div>
+            <img id="logo" src="https://image.flaticon.com/icons/png/512/2340/2340162.png" alt="">
+        </div>
+
+        <div id="div1">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="consultalocal.html">Localidades</a>
+                <a href="consultaip.html">Consulta por IP</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="barra"></div>
+
+    <main>
+        <div id="div2">
+            <form>
+                <label for="continente" class="continente" >Continente:</label>
+                <select  id="continentesel" onchange="loadCidades(this.value)">
+                    <option value="">Selecione...</option>
+                    <option value="africa">África</option>
+                    <option value="america">América</option>
+                    <option value="asia">Ásia</option>
+                    <option value="australia">Austrália</option>
+                    <option value="europe">Europa</option>
+                    <option value="pacific">Oceania</option>
+                    <option value="atlantic">Atlantico</option>
+                </select>
+
+                <label for="cidade">Cidade</label>
+                <select id="cidade" onchange="loadhora(this.value)"></select>
+
+                <section>
+
+                    <p id="regiao"></p>
+
+
+                </section>
+
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+    <script src="scriptlocal.js"></script>
+</body>
+
+</html>
